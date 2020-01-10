@@ -1,2 +1,9 @@
-# terraform-vsphere-tags
-How to Use VMware vSphere Tags with Terraform
+# How to Use VMware vSphere Tags with Terraform
+
+* **main.tf** --> create virtual machines
+
+* **variables.tf** --> variables file
+
+* **terraform.tfvars** --> update vSphere credentials and other settings
+
+* **tags.tf** --> tags file
