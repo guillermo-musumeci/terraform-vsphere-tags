@@ -72,4 +72,9 @@ resource "vsphere_virtual_machine" "vm" {
       network_interface {}
     }
   }
+  
+  tags = [
+        "${vsphere_tag.tag-environment-dev.id}",
+        "${vsphere_tag.tag-application-k8s.id}"
+   ]
 }
